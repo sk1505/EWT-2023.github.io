@@ -1,0 +1,137 @@
+#title{
+    background-color:#ff4c68;
+    
+}
+.navbar{
+    padding: 0 0 5rem 0;
+}
+h1{
+    font-style: "Montserrat-Bold";
+    font-size:3.5rem;
+    line-height: 1.5;
+    color:white;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+    
+}
+
+.btn{
+    margin:5% 3% 5% 0 ;
+}
+.navbar-brand{
+    font-size:2.5rem;
+    font-family:"Ubuntu";
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 15px 0;
+}
+.nav-link{
+    font-size:1.35rem;
+    font-family: "Montserrat-light";
+}
+
+.titleimg{
+    width:24%;
+    transform:rotate(25deg);
+    position: absolute;
+    right:20%;
+}
+.feature-box{
+    text-align: center;
+    
+}
+.fas{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color:#ff4c5b;
+}
+.feahead{
+    font-family:"Montserrat"; 
+    font-weight:900;
+    font-size:1.5rem;
+    
+}
+.feadet{
+    color:#8f8f8f;
+    padding:9%;
+}
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative; 
+    
+   
+}
+/* testimonial section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+    
+}
+h2{
+    font-family:"Montserrat-Bold";
+    font-size:3.2rem;
+    line-height:1.5;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align:center;
+}
+.press-img{
+    width:15%;
+    margin:20px 20px 80px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.price-col{
+    padding:3% 2%;
+}
+@media (max-width:767.9px){
+    .titleimg{
+        position:static;
+        width:60%;
+        transform:rotate(0)
+    }
+    #title .top-cla-row{
+        text-align: center;
+    }
+}
+/* section-cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:10%;
+}
+.last-head{
+    font-size:5rem;
+    color:white;
+    font-family: "Montserrat";
+}
+#footer{
+    text-align:center;
+    padding:10%;
+}
+.c-right{
+    font-size:2rem;
+    color:grey;
+}
+.foo-ic{
+    margin:8px;
+    color:black;
+}
